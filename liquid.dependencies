@@ -1,7 +1,7 @@
 [
     {
       "remote": "gh",
-      "repository": "CyanogenMod/android_kernel_asus_grouper",
+      "repository": "CPA-Poke/android_kernel_asus_grouper",
       "target_path": "kernel/asus/grouper",
       "revision": "cm-11.0"
     },
