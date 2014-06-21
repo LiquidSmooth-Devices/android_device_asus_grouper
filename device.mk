@@ -38,7 +38,12 @@ DEVICE_PACKAGE_OVERLAYS := \
     device/asus/grouper/overlay
 
 # F2FS
-PRODUCT_PACKAGES := \
-    mkfs.f2fs \
-    fsck.f2fs \
-    fibmap.f2fs
+PRODUCT_PACKAGES += \
+    mkfs.f2fs \
+    fsck.f2fs \
+    fibmap.f2fs
+
+# Filesystem management tools
+PRODUCT_PACKAGES += \
+    setup_fs \
+    e2fsck
