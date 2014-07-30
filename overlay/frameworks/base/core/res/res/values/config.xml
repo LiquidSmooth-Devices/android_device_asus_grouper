@@ -257,4 +257,7 @@
     <!-- enabling WifiDisplay(Miracast Source)-->
     <bool name="config_enableWifiDisplay">true</bool>
 
+    <!-- Enable flashlight -->
+    <bool name="config_enableTorch">false</bool>
+
 </resources>
