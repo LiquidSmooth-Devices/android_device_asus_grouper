@@ -39,6 +39,12 @@ PRODUCT_MODEL := Nexus 7
 PRODUCT_MANUFACTURER := asus
 PRODUCT_PROPERTY_OVERRIDES += ro.buildzipid=liquid.grouper.$(shell date +%m%d%y).$(shell date +%H%M%S)
 
+#Needed for VOIP+SIP
+PRODUCT_PACKAGES += \
+    InCallUI \
+    Dialer \
+    rild
+
 # override
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BUILD_NUMBER=VS98011A.1378346052 \
