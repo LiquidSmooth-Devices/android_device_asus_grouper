@@ -33,13 +33,13 @@
     "remote": "gh",
     "repository": "TheMuppets/proprietary_vendor_nvidia",
     "target_path": "vendor/nvidia",
-    "revision": "cm-12.0"
+    "revision": "cm-11.0"
     },
      {
     "remote": "gh",
     "repository": "TheMuppets/proprietary_vendor_nxp",
     "target_path": "vendor/nxp",
-    "revision": "cm-12.0"
+    "revision": "cm-11.0"
     },
      {
     "remote": "gh",
